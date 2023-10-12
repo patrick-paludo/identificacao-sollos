@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100lvw;
+  height: 100lvh;
+  text-align: center;
+  gap: 16px;
+}
+
+.uploadContainer {
+  min-height: 120px;
+  display: flex;
+  gap: 16px;
+}
+.uploadContainer p {
+  max-width: 150px;
+}
+
+.upload {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.actionsContainer {
+  min-height: 32px;
+  width: 266px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.submitButton {
+  margin-top: 32px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.result span {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  height: 64px;
+}
+
+.title svg {
+  width: 24px;
+  height: 24px;
+}
